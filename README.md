@@ -1,3 +1,3 @@
 # ECE176_U-net
 
-Implement and optimize U-net for MBRSC dataset
+Small project where I practice implementing and optimizing a U-net architecture for the MBRSC dataset
