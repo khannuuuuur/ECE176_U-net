@@ -138,7 +138,7 @@ def patchify(patch_size=300, stride=None, rotate=True, whole=False):
     count = 0
     for i in range(len(data_list)):
         image = np.array(openImage(data_list[i]))
-        mask = np.array(openImage(mask_list[i])) 
+        mask = np.array(openImage(mask_list[i]).convert('I')) 
         assert patch_size < image.shape[0] and patch_size < image.shape[1]
             
         encodemask(mask)
